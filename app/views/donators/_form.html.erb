@@ -21,7 +21,7 @@
   </div>
   <div class="field">
     <%= f.label :blood_type %><br>
-    <%= f.text_field :blood_type %>
+    <%= f.select(:blood_type, ['A','B','0']) %>
   </div>
   <div class="actions">
     <%= f.submit %>
